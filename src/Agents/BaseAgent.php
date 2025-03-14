@@ -4,6 +4,7 @@ namespace CaiqueBispo\AiAgentsPhp\Agents;
 
 
 use CaiqueBispo\AiAgentsPhp\ChatModels\ChatModelResponse;
+use CaiqueBispo\AiAgentsPhp\Exception\TooManyFunctionCallsException;
 use Throwable;
 
 /**
@@ -231,10 +232,5 @@ class BaseAgent {
         }
         return $allowedFunctions;
     }
-
-}
-
-
-class TooManyFunctionCallsException extends \Exception {
 
 }

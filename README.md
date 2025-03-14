@@ -2,6 +2,14 @@
 
 [![Latest Stable Version](http://poser.pugx.org/caiquebispo/ai-agents-php/v)](https://packagist.org/packages/caiquebispo/ai-agents-php) [![Total Downloads](http://poser.pugx.org/caiquebispo/ai-agents-php/downloads)](https://packagist.org/packages/caiquebispo/ai-agents-php) [![Latest Unstable Version](http://poser.pugx.org/caiquebispo/ai-agents-php/v/unstable)](https://packagist.org/packages/caiquebispo/ai-agents-php) [![License](http://poser.pugx.org/caiquebispo/ai-agents-php/license)](https://packagist.org/packages/caiquebispo/ai-agents-php) [![PHP Version Require](http://poser.pugx.org/caiquebispo/ai-agents-php/require/php)](https://packagist.org/packages/caiquebispo/ai-agents-php)
 
+### Installation
+
+Install the package via Composer:
+
+```bash
+composer require caiquebispo/ai-agents-php
+```
+
 ### Prerequisites
 
 Make sure you have the `phpdotenv` package installed. You can install it via Composer:
@@ -18,17 +26,7 @@ In the root of your project, create a file named `.env` with the following varia
 
 ```dotenv
 OPENAI_API_KEY=""
-OPENAI_MODEL=
-
-
-```
-
-### Installation
-
-Install the package via Composer:
-
-```bash
-composer require caiquebispo/ai-agents-php
+OPENAI_MODEL=""
 ```
 
 ### In Code
